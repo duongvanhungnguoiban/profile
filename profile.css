@@ -1,0 +1,40 @@
+body {
+    font-family: 'Kufam', cursive;
+    background-color: #d6e0f0;
+}
+
+#main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    height: 300px;
+    /* width: 900px; */
+    background-color: #8d93ab;
+    margin-left: 450px;
+    margin-right: 450px;
+    border-radius: 15px;
+}
+
+#main img {
+    width: 200px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 25px;
+}
+
+#i4 {
+    margin-left: 50px;
+}
+
+#i4 h3{
+    color: #1a1a2e;
+}
+#i4 li {
+    color: #e5e5e5;
+}
+
+#audio {
+    margin-left: 600px;
+    margin-top: 50px;
+}
