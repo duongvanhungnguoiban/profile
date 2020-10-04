@@ -2,7 +2,7 @@
     background-color: #dddddd;
     text-align: center;
     margin: 0px 250px 0px 250px;
-    border-radius: 30px;
+    cursor: pointer;
     padding-top: 30px;
     box-shadow: 10px 10px 18px 0px rgba(33,62,59,0.74);
 }
@@ -28,7 +28,7 @@
     justify-content: space-around;
     align-items: center;
     width: 330px;
-    border-radius: 25px;
+    cursor: pointer;
     box-shadow: 10px 10px 18px 0px rgba(33,62,59,0.74);
 }
 
@@ -43,6 +43,28 @@
     text-align: center;
     width: auto;
     height: 400px;
-    background-color: #eeeeee;
+    background-color: black;
     padding-top:100px ;
 }
+
+
+/* width */
+body::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+body::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+body::-webkit-scrollbar-thumb {
+    background: #888; 
+    border-radius: 3px;
+  }
+  
+  /* Handle on hover */
+body::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
